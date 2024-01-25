@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bot-selfcare"
+version = "0.1.0"
+description = ""
+authors = ["iana_kasimova <iana_kasimova@epam.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-telegram-bot = "^20.7"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bot_app = "src.app:main"
